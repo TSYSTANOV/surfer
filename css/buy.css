@@ -1,0 +1,133 @@
+.buyer
+{padding-top: 150px;
+padding-bottom: 150px;}
+.buyer__inner
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.buyer__text
+{display: flex;
+gap:50px;
+flex-direction: column;
+position: relative;
+}
+.buyer__title
+{
+color: #0093A1;
+font-family: Comfortaa;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.buyer__list
+{display: flex;
+flex-direction: column;
+gap:25px}
+.buyer__item
+{
+    max-width: 300px;
+}
+.buyer__item-title
+{color: #262C27;
+    font-family:  Comfortaa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;}
+
+.buyer__item-text
+{color: #262C27;
+    font-family:  Comfortaa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;}
+.buyer__price
+{position: absolute;
+right:0;
+background-size: cover;
+width:180px;
+height:180px;
+bottom: 150px;
+color:  #262C27;
+font-family:  Comfortaa;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+display: flex;
+justify-content: center;
+align-items: center;
+line-height: normal;
+background-image: url(../images/Star1.svg);
+background-repeat: no-repeat;
+transition: 0.3s;}
+.buyer__price:hover
+{
+    transform: scale(1.1) rotate(-10deg);
+}
+.buyer__img
+{
+max-width:100%;
+max-height: 630px;
+}
+.buyer__btn
+{border: 2px solid #0093A1;
+    padding: 16px 0;
+    color:  #0093A1;
+font-family: Comfortaa;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+transition: 0.3s;
+}
+.buyer__btn:hover
+{border: 2px solid #B9C400;
+color:#262C27;
+background-color: #B9C400;;}
+@media screen and (max-width:1150px)
+{
+    .buyer__inner
+    {flex-direction: column-reverse;
+    gap:20px}
+    .buyer__price
+    {position: absolute;
+    right:0;
+   
+    top:-200px;
+bottom: unset;
+    }
+    .buyer
+{padding-bottom: 10px;}
+}
+@media screen and (max-width:800px){
+.buyer__text
+{width:100%;
+gap:30px;
+}
+.buyer__item
+{
+    max-width: 100%;
+}
+}
+@media screen and (max-width:510px)
+{.buyer__price
+{right:10px;
+width:110px;
+height:110px;
+font-size: 20px;
+}
+.buyer__title
+{font-size: 30px;}
+.buyer
+{padding-top: 50px;
+padding-bottom: 50px;}
+}
+@media screen and (max-width:400px)
+{
+.buyer
+{padding-bottom: 0;}
+}

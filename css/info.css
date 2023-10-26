@@ -1,0 +1,130 @@
+.info
+{background-image: url(../images/Fanatic_RayAirPocket_Klaas_Fanatic_DJI_0704_Sigmund\ 1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+padding-bottom: 50px;
+}
+.info__inner
+{padding-top: 260px}
+.info__img
+{
+    max-width:227px;
+    max-height:650px;
+    position: relative;
+    z-index: 6;
+}
+.info__top
+{display: flex;
+margin-bottom: 70vh;
+justify-content: center;
+gap:80px;}
+.info__top-text
+{max-width: 300px;
+    color: #FFF;
+    font-family: 'Comfortaa';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+align-self: flex-end;}
+.info__top-column
+{padding-top: 190px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;}
+.info__top-text--border
+{padding-bottom: 30px;
+border-bottom: 2px solid white;}
+.info__btn
+{max-width: 150px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap:12px;
+align-self: flex-end;}
+.info__btn span
+{
+color:  #FFF;
+font-family: 'Comfortaa';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.info__bottom
+{display: flex;
+justify-content: center;
+align-items: center;
+gap:160px;
+}
+.info__spec
+{
+color: #FFF;
+font-family: Comfortaa;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.info__list
+{display: flex;
+flex-direction: column;
+gap:20px;
+border-top: 2px solid white;
+border-bottom: 2px solid white;
+padding:30px 0}
+.info__item
+{display: flex;
+gap:25px}
+.info__item-text
+{ min-width:190px;
+color: #FFF;
+font-family: Comfortaa;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+@media screen and (max-width:1000px)
+{
+    .info__top
+    {flex-direction: column;
+    align-items: center;
+justify-content: center;
+gap:30px}
+.info__btn
+{align-self: center;
+padding-top: 10px;}
+.info__top-text
+{
+    max-width:100%;
+}
+}
+@media screen and (max-width: 800px)
+{.info__top-text
+    {
+        text-align: justify;
+    }
+    .info__top
+    {
+        margin-bottom: 10vh;
+    }
+.info__bottom
+{
+    flex-direction: column;
+    gap:10px;
+}
+.info__top-column
+{padding-top: 100px;}
+}
+@media screen and (max-width: 440px)
+{.info__spec
+    {
+        font-size: 40px;
+    }
+    .info__item
+    {flex-direction: column;
+    gap:2px;}
+}

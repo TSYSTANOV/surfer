@@ -1,0 +1,29 @@
+html
+{
+    box-sizing: border-box;
+}
+*,*::after,*::before
+{margin: 0;
+padding: 0;
+box-sizing: inherit;}
+body
+{font-family: 'Inter', 'Comfortaa',;
+color:black}
+a
+{text-decoration: none;
+color: inherit;}
+img
+{max-width: 100%;
+object-fit: cover;
+height: auto}
+.container
+{margin: 0 auto;
+    max-width:1220px;
+    padding:0 10px;
+}
+button
+{background-color: transparent;
+border: none;
+cursor: pointer;}
+ul
+{list-style: none;}
